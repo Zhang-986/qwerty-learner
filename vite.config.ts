@@ -28,10 +28,10 @@ export default defineConfig(async ({ mode }) => {
         },
       }),
     ],
-    server:{
+    server: {
       port: 5173,
       open: true,
-      host: '0.0.0.0'
+      host: '0.0.0.0',
     },
     build: {
       minify: true,
