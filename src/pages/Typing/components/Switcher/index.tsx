@@ -88,9 +88,7 @@ export default function Switcher() {
           {isOpenDarkMode ? <IconMoon className="icon" /> : <IconSun className="icon" />}
         </button>
       </Tooltip>
-      <Tooltip className="h-7 w-7" content="指法图示">
-        <HandPositionIllustration></HandPositionIllustration>
-      </Tooltip>
+
       <Tooltip content="设置">
         <Setting />
       </Tooltip>
